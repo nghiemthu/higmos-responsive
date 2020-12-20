@@ -84,7 +84,7 @@ strong {
 }
 
 .reservations i {
-  margin-right: var(--space-2xs);
+  margin-right: var(--space-xs);
 }
 
 .main-heading {
@@ -136,7 +136,7 @@ strong {
   display: block;
   width: 100%;
   border: none;
-  padding: var(--space-2xs) 0;
+  padding: var(--space-xs) 0;
 
   font-weight: 500;
   cursor: pointer;
@@ -315,6 +315,11 @@ strong {
 }
 
 @media (min-width: 760px) {
+  .accommodations__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .stays {
     grid-template-columns: 1fr 1fr;
   }
